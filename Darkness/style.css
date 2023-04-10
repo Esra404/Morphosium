@@ -1,0 +1,109 @@
+body{
+    background: #131313;
+    color: #525252;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.sayfa{
+    width: 960px;
+    margin:auto;
+}
+.ust{
+    background: #232323;
+}
+.logo{
+    float: left;
+    width: 260px;
+    margin-top: 7px;
+    margin-left: 10px;
+
+ }
+ .logo h1{
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+    text-transform: uppercase;
+ }
+ .logo h1 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #DBDBDB;
+    letter-spacing: 3px;
+ }
+ .logo p{
+    color: #dbdbdb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 3px;
+    margin-top: 0;
+    padding-top: 0;
+    letter-spacing: 2px;
+ }
+ .menu{
+    float: left;
+    width: 650px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-size: 13px;
+    text-align: right;
+ }
+ .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ .menu ul li{
+    display: inline;
+    margin-right: 35px;
+ }
+ .menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #DBDBDB;
+ }
+ .orta{
+    margin-top: 20px;
+ }
+ .orta-sol{
+    width: 575px;
+    float: left;
+ }
+ .orta-sag{
+    width: 360px;
+    float: right;
+    height: 280px;
+    background: FDC609 ;
+    padding: 10px;
+ }
+ .orta-sag img{
+    box-shadow: 10px 10px 10px gray;
+ }
+ .orta-resim{
+    margin: 0 25px
+ }
+ .card{
+    width: 300px;
+    float: left;
+ }
+ .card{
+    margin-right: 30px;
+ }
+ .card:nth-child(3){
+    margin: 0px;
+ }
+ .card h1{
+    border-bottom: 1px dotted white;
+    padding-bottom: 15px;
+ }
+.button a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fdc609;
+    background-color: #232323;
+    text-decoration: none;
+}
+.clear{
+    clear:both;
+}
