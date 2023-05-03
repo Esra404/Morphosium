@@ -1,0 +1,9 @@
+body{
+    background-color: #292929;
+}
+.seat{
+    background-color: #444451;
+    height: 15px;
+    width: 15px;
+    margin: 3px;
+}
