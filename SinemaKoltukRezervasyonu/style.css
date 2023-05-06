@@ -15,7 +15,7 @@ body{
     border-radius: 5px;
 }
 
-.seat.selected{
+.seat.selected {
     background-color: #f6eb6f;
 }
 .seat.reserved{
@@ -36,17 +36,18 @@ body{
     display: flex;
 }
 .screen {
-    background-color: #fff;
+    background-color: #000000;
     height: 50px;
     width: 100%;
     margin: 20px 0;
-    box-shadow: 0 3px 8px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 3px 8px rgba(250, 246, 246, 0.7);
 }
 .movie-list{
     margin: 20px 0;
+    
 }
 .info{
-    background-color: rgba(255, 255 ,255,0.2);
+    background-color: rgba(241, 240, 240, 0.2);
     padding: 5px 10px;
     color:#777;
     display: flex;
