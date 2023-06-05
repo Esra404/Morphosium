@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login and Singn Up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="form-box">
+            <div class="buttom-box">
+                <div id="btn"></div>
+                <button type="button" class="toogle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toogle-btn" onclick="register()">  Register</button>
+
+        </div>
+        <div class="social-icons">
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_lsx9bbvu.json"  background="transparent"    loop controls autoplay></lottie-player>
+            
+            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_yvhlzu6y.json"  background="transparent"  
+             loop controls autoplay></lottie-player>
+             
+             <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_debsmocb.json"  background="transparent"  
+              loop controls autoplay></lottie-player>
+            
+<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_6g7ov8jk.json"  background="transparent"  
+  loop controls autoplay></lottie-player>
+  
+  <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_YGNGxq.json"  background="transparent"  speed="1" 
+    loop controls autoplay></lottie-player>
+        </div>
+        <form id="Login" class="input-group">
+            <input type="text" class="input-field" placeholder="Enter Username" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <a href="#">Lost Your Password</a>
+            <button type="sumbit" class="sumbit-btn">Login</button>
+        </form>
+        <form id="Register" class="input-group">
+            <input type="text" class="input-field" placeholder="Enter Username" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="email" class="input-field" placeholder="Enter email" required>
+            <a href="#">By registering ,you agree to the Terms .Data Policy and Cookies Policy</a>
+            <button type="sumbit" class="sumbit-btn">Register</button>
+        </form>
+    </div>
+    <script>
+        var x=document.getElementById("Login");
+        var z=document.getElementById("Register");
+        var y=document.getElementById("btn");
+         function register(){
+            x.style.left="-480px";
+            z.style.left="50px";
+            y.style.left="110px";
+         }
+         function login(){
+            x.style.left="50px";
+            z.style.left="450px";
+            y.style.left="0px";
+         }
+
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+   
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
