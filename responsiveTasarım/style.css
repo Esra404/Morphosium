@@ -109,3 +109,24 @@
 #Register{
     left: 450px;
 }
+@media screen and (max-width:760px){
+
+    .menu{
+        width: 40%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+  
